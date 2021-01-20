@@ -32,10 +32,10 @@ class Manager
     end 
 
     def self.average_age
-        total_age = 0
         # ages = self.all.map {|manager| manager.age}
         # total_age = ages.reduce(:+)
         # total_age / self.all.length
+        total_age = 0
         self.all.each do |manager| 
             total_age += manager.age
         end 
