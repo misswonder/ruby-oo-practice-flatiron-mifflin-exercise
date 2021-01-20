@@ -14,6 +14,7 @@ kevin = Manager.new("Kevin", 28, "sales")
 # jerry = Employee.new("Jerry", 28, kevin)
 
 alex.hire_employee("Yvonne", 45000)
+kevin.hire_employee("Emily", 50000)
 
 
 
